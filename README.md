@@ -1,4 +1,4 @@
-# Keyboard Warriors Music Bot
+# Pylocal Music Bot
 
 Want to listen to your totally legal (not pirated) songs in Discord? Using the Discord.py API, our bot lets you stream local MP3 files. Wanna try a new way of bumping rad tunes? This bot is for you!
 
@@ -15,3 +15,8 @@ Want to listen to your totally legal (not pirated) songs in Discord? Using the D
 * !stop - stops the voice client
 
 * !disconnect - disconnects the bot from the voice channel
+
+
+# Install
+make sure you have installed Python, discord.py we don't include this, this
+was and is built on Linux.
