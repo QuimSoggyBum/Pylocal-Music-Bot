@@ -4,17 +4,21 @@ Want to listen to your totally legal (not pirated) songs in Discord? Using the D
 
 # Commands
 
-* !join - connects bot to voice channel of user issuing the command
+* !join - Connects bot to voice channel so you can play the music commands
 
-* !play - plays a song in the music directory of the user issuing command with a song name specified after the command
+* !play - [MUST BE CONNECTED] Plays a song in the music directory of the user issuing command with a song name specified after the command
 
-* !pause - pauses the song that is currently playing
+* !pick - [MUST BE CONNECTED TO VOICE] This will play the track you have picked from play when there is more then one song matching that song
 
-* !resume - resumes the song that was paused
+* !pause - [MUST BE CONNECTED TO VOICE] Pauses the song that is currently playing
 
-* !stop - stops the voice client
+* !resume - [MUST BE CONNECTED TO VOICE] Resumes the song that was paused
 
-* !leave - disconnects the bot from the voice channel
+* !stop - [MUST BE CONNECTED TO VOICE] Stops the voice client
+
+* !leave - [MUST BE CONNECTED TO VOICE] Disconnects the bot from the voice channel
+
+* !count - Will count the songs in the folder it can currently play
 
 
 # Install
@@ -28,3 +32,9 @@ some locked down version of linux this script already loads from the /lib folder
 `pip3 install --target=./lib discord.py`
 
 `pip3 install --target=./lib davey`
+
+
+
+
+# Credits
+This project was based on [Keyboard Warriors Music Bot](https://github.com/MarkKneblik/Keyboard-Warriors-Music-Bot) for windows, Python, Discord.py & Davry
