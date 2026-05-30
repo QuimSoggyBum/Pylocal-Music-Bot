@@ -6,7 +6,9 @@ Want to listen to your totally legal (not pirated) songs in Discord? Using the D
 
 * !join - Connects bot to voice channel so you can play the music commands
 
-* !play - [MUST BE CONNECTED] Plays a song in the music directory of the user issuing command with a song name specified after the command
+* !disconnect - [MUST BE CONNECTED TO VOICE] Disconnects the bot from the voice channel
+
+* !play - [MUST BE CONNECTED TO VOICE] Plays a song in the music directory of the user issuing command with a song name specified after the command
 
 * !pick - [MUST BE CONNECTED TO VOICE] This will play the track you have picked from play when there is more then one song matching that song
 
@@ -19,6 +21,8 @@ Want to listen to your totally legal (not pirated) songs in Discord? Using the D
 * !leave - [MUST BE CONNECTED TO VOICE] Disconnects the bot from the voice channel
 
 * !count - Will count the songs in the folder it can currently play
+
+* !version - Will return the version of the of the script (SOON)
 
 
 # Install
