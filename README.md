@@ -14,9 +14,17 @@ Want to listen to your totally legal (not pirated) songs in Discord? Using the D
 
 * !stop - stops the voice client
 
-* !disconnect - disconnects the bot from the voice channel
+* !leave - disconnects the bot from the voice channel
 
 
 # Install
 make sure you have installed Python, discord.py we don't include this, this
 was and is built on Linux.
+
+when installing your libs, install them in to your root bot folder /lib, this fixed problems with
+some locked down version of linux this script already loads from the /lib folder.
+
+
+`pip3 install --target=./lib discord.py`
+
+`pip3 install --target=./lib davey`
